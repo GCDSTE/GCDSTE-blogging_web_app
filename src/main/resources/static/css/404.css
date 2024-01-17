@@ -1,0 +1,29 @@
+/* Default Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+/* Dark Mode Styles */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+h1, p {
+    color: #ccc;
+}

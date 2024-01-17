@@ -1,0 +1,53 @@
+/* Default Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+.post {
+    margin-top: 20px;
+}
+
+.post h2 {
+    color: #333;
+}
+
+.post h5 {
+    color: #555;
+}
+
+.post p {
+    color: #777;
+}
+
+/* Dark Mode Styles */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.container {
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+a {
+    color: #4CAF50;
+}
+
+.post h2, .post h5, .post p {
+    color: #ccc;
+}
